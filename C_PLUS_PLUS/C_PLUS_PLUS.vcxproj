@@ -18,6 +18,76 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BACKJUN\BackJun_01.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_02.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_03.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_04.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_05.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_06.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_07.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_08.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_09.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_10.cpp" />
+    <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp" />
+    <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Game01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Malloc.cpp" />
+    <ClCompile Include="BOOK_PART_01\Namespace.cpp" />
+    <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp" />
+    <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp" />
+    <ClCompile Include="BOOK_PART_01\source01.cpp" />
+    <ClCompile Include="BOOK_PART_01\Struct_Class.cpp" />
+    <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp" />
+    <ClCompile Include="BOOK_PART_02\Calculator.cpp" />
+    <ClCompile Include="BOOK_PART_02\Circle.cpp" />
+    <ClCompile Include="BOOK_PART_02\Constructor1.cpp" />
+    <ClCompile Include="BOOK_PART_02\Constructor2.cpp" />
+    <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp" />
+    <ClCompile Include="BOOK_PART_02\CopyConstruct.cpp" />
+    <ClCompile Include="BOOK_PART_02\CopyConstruct02.cpp" />
+    <ClCompile Include="BOOK_PART_02\DeepCopyStructor.cpp" />
+    <ClCompile Include="BOOK_PART_02\Destructor.cpp" />
+    <ClCompile Include="BOOK_PART_02\Encaps1.cpp" />
+    <ClCompile Include="BOOK_PART_02\Encaps2.cpp" />
+    <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp" />
+    <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp" />
+    <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
+    <ClCompile Include="BOOK_PART_02\NameCard.cpp" />
+    <ClCompile Include="BOOK_PART_02\NameCardManager.cpp" />
+    <ClCompile Include="BOOK_PART_02\ObjArr.cpp" />
+    <ClCompile Include="BOOK_PART_02\Point.cpp" />
+    <ClCompile Include="BOOK_PART_02\Printer.cpp" />
+    <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp" />
+    <ClCompile Include="BOOK_PART_02\Rectangle.cpp" />
+    <ClCompile Include="BOOK_PART_02\RectangleFaultFind.cpp" />
+    <ClCompile Include="BOOK_PART_02\ReferenceMeber.cpp" />
+    <ClCompile Include="BOOK_PART_02\Ring.cpp" />
+    <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp" />
+    <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp" />
+    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_01.cpp" />
+    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp" />
+    <ClCompile Include="PROJECT\CoffeeBuyer.cpp" />
+    <ClCompile Include="PROJECT\CoffeeManager.cpp" />
+    <ClCompile Include="PROJECT\CoffeeSeller.cpp" />
+    <ClCompile Include="PROJECT\PhoneManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BOOK_PART_02\Calculator.h" />
+    <ClInclude Include="BOOK_PART_02\Circle.h" />
+    <ClInclude Include="BOOK_PART_02\FruitBuyer.h" />
+    <ClInclude Include="BOOK_PART_02\FruitSeller.h" />
+    <ClInclude Include="BOOK_PART_02\NameCard.h" />
+    <ClInclude Include="BOOK_PART_02\Point.h" />
+    <ClInclude Include="BOOK_PART_02\Printer.h" />
+    <ClInclude Include="BOOK_PART_02\Rectangle.h" />
+    <ClInclude Include="BOOK_PART_02\Ring.h" />
+    <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h" />
+    <ClInclude Include="PROJECT\CoffeeBuyer.h" />
+    <ClInclude Include="PROJECT\CoffeeSeller.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{205188EF-8A60-4A0D-8F56-A4D490A18F1B}</ProjectGuid>
     <RootNamespace>C_PLUS_PLUS</RootNamespace>
@@ -75,6 +145,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -109,8 +182,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

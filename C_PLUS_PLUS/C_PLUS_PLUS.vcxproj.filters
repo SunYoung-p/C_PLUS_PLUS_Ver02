@@ -1,17 +1,217 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="BACKJUN">
+      <UniqueIdentifier>{7de2ea1e-3685-49c3-ba99-9110c5ca8be0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="BOOK_PART_01">
+      <UniqueIdentifier>{e8c00579-ed0f-4ce6-9636-d9a562d99885}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="BOOK_PART_02">
+      <UniqueIdentifier>{2c011dd2-0d5d-4c2b-8f3e-8b0684f34950}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PROJECT">
+      <UniqueIdentifier>{2fce9b47-3fcf-4442-9b80-4ff79d90746d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BACKJUN\BackJun_01.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_02.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_03.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_04.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_05.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_06.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_07.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_08.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_09.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BACKJUN\BackJun_10.cpp">
+      <Filter>BACKJUN</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\CPP_Header_Exam.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\FinalProblem_C_01.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\Game01.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\Malloc.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\Namespace.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\RefVal_Exam_01.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\RefVal_Exma_02.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\source01.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_01\Struct_Class.cpp">
+      <Filter>BOOK_PART_01</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Calculator.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Circle.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Constructor1.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Constructor2.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\CopyConstruct.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\CopyConstruct02.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\DeepCopyStructor.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Destructor.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Encaps1.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Encaps2.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\FruitSeller.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\NameCard.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\NameCardManager.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\ObjArr.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Point.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Printer.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Rectangle.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RectangleFaultFind.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\ReferenceMeber.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Ring.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_01.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeBuyer.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeManager.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\CoffeeSeller.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\PhoneManager.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BOOK_PART_02\Calculator.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Circle.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\FruitBuyer.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\FruitSeller.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\NameCard.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Point.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Printer.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Rectangle.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Ring.h">
+      <Filter>BOOK_PART_02</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\CoffeeBuyer.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\CoffeeSeller.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
