@@ -64,6 +64,20 @@ Account::Account(char *id, char *name, int money)
 	myMoney = money;
 }
 
+Account::Account(const Account& n)
+{
+	int len = 0;
+	len = strlen(n.myID) + 1;
+	myID = new char[len];
+	strcpy_s(myID, len, n.myID);
+
+	len = strlen(n.myName) + 1;
+	myName = new char[len];
+	strcpy_s(myName, len, n.myName);
+
+	myMoney = n.myMoney;
+}
+
 Account::~Account()
 {
 	delete[] myName;

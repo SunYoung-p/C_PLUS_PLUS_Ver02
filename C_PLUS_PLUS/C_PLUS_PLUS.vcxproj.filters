@@ -175,6 +175,12 @@
     <ClCompile Include="PROJECT\PhoneManager.cpp">
       <Filter>PROJECT</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\ConstObject.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\ConstOverLoading.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">

@@ -20,6 +20,7 @@ private:
 
 public:
 	Account(char *id, char *name, int money);
+	Account(const Account& n);
 	~Account();
 	char* GetID() { return myID; }
 	char* GetName() { return myName; }

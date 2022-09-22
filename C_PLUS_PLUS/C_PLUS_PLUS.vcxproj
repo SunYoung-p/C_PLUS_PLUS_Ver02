@@ -41,6 +41,8 @@
     <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp" />
     <ClCompile Include="BOOK_PART_02\Calculator.cpp" />
     <ClCompile Include="BOOK_PART_02\Circle.cpp" />
+    <ClCompile Include="BOOK_PART_02\ConstObject.cpp" />
+    <ClCompile Include="BOOK_PART_02\ConstOverLoading.cpp" />
     <ClCompile Include="BOOK_PART_02\Constructor1.cpp" />
     <ClCompile Include="BOOK_PART_02\Constructor2.cpp" />
     <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp" />
