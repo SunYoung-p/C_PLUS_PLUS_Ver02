@@ -13,6 +13,9 @@
     <Filter Include="PROJECT">
       <UniqueIdentifier>{2fce9b47-3fcf-4442-9b80-4ff79d90746d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{23df64a1-9bab-4002-9183-93055cbccf25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -179,6 +182,18 @@
       <Filter>BOOK_PART_02</Filter>
     </ClCompile>
     <ClCompile Include="BOOK_PART_02\ConstOverLoading.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\MyFriendFunction.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\MyFriendFunction2.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\StaticMember.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\PublicStaticMember.cpp">
       <Filter>BOOK_PART_02</Filter>
     </ClCompile>
   </ItemGroup>
