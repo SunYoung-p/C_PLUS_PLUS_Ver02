@@ -14,7 +14,7 @@ public:
 };
 int c1014::simObjcnt = 0;
 
-int main()
+int PublicStaticMembers()
 {
 	cout << c1014::simObjcnt << " ¹øÂ° c1014 °´Ã¼" << endl;
 	c1014 sim1;
