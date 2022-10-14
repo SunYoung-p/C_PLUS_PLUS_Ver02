@@ -45,6 +45,7 @@
     <ClCompile Include="BOOK_PART_02\ConstOverLoading.cpp" />
     <ClCompile Include="BOOK_PART_02\Constructor1.cpp" />
     <ClCompile Include="BOOK_PART_02\Constructor2.cpp" />
+    <ClCompile Include="BOOK_PART_02\ConstStaticMember.cpp" />
     <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp" />
     <ClCompile Include="BOOK_PART_02\CopyConstruct.cpp" />
     <ClCompile Include="BOOK_PART_02\CopyConstruct02.cpp" />

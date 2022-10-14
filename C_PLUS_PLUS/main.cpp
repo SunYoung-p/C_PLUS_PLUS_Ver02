@@ -2,26 +2,33 @@
 
 using namespace std;
 
-class c1014
+class CountryArea
 {
 public:
-	static int simObjcnt;
-public:
-	c1014()
+	const static int RUSSIA = 1707540;
+	const static int CANADA = 998467;
+	const static int CHINA = 957290;
+	const static int SOUTH_KOREA = 9922;
+};
+
+/*
+class SoSimple
+{
+   private: int n;
+   public : 
+    static int Adder(int m)
 	{
-		simObjcnt++;
+	  n+=m;			// static 멤버 함수는 static 멤버 변수와 static 함수만 호출 가능 (이 함수는 객체 내 존재하지 않으므로 컴파일 에러 발생)
+	  return n;
 	}
 };
-int c1014::simObjcnt = 0;
-
+*/
 int main()
 {
-	cout << c1014::simObjcnt << " 번째 c1014 객체" << endl;
-	c1014 sim1;
-	c1014 sim2;
+	cout << "러시아 면적 : " << CountryArea::RUSSIA<< "km2" << endl;
+	cout << "캐나다 면적 : " << CountryArea::CANADA<< "km2" << endl;
+	cout << "중국 면적 : " << CountryArea::CHINA<< "km2" << endl;
+	cout << "한국 면적 : " << CountryArea::SOUTH_KOREA<< "km2" << endl;
 
-	cout << c1014::simObjcnt << " 번째 c1014 객체" << endl;
-	cout << sim1.simObjcnt << " 번째 c1014 객체" << endl;
-	cout << sim2.simObjcnt << " 번째 c1014 객체" << endl;
 	return 0;
 }
