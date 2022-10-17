@@ -20,18 +20,18 @@ private:
 
 public:
 	Account(char *id, char *name, int money);
-	Account(const Account& n);
+	Account(const Account& n) ;
 	~Account();
-	char* GetID() { return myID; }
-	char* GetName() { return myName; }
-	int GetMoney() { return myMoney; }
+	char* GetID() const { return myID; }
+	char* GetName() const { return myName; }
+	int GetMoney() const { return myMoney; }
 	void PlusMoney(int money) { myMoney += money; }
 	void MinusMoney(int money)
 	{ 
 		if(myMoney-money >=0) 
 			myMoney -= money; 
 	}
-	void ShowInfo();
+	void ShowInfo() const;
 };
 
 /* 함수 선언 */

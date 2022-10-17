@@ -226,7 +226,7 @@ void ExitBank()
 	cout << "메모리 삭제 완료 \n";
 }
 
-void Account::ShowInfo()
+void Account::ShowInfo() const
 {
 	cout << "ID : " << GetID() << endl;
 	cout << "Name : " << GetName() << endl;

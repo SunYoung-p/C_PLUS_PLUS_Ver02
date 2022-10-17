@@ -202,6 +202,9 @@
     <ClCompile Include="BOOK_PART_02\ConstStaticMember.cpp">
       <Filter>BOOK_PART_02</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Mutable.cpp">
+      <Filter>BOOK_PART_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">
