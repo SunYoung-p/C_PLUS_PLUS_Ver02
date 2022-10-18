@@ -205,6 +205,9 @@
     <ClCompile Include="BOOK_PART_02\Mutable.cpp">
       <Filter>BOOK_PART_02</Filter>
     </ClCompile>
+    <ClCompile Include="PROJECT\Inheritance_01.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">

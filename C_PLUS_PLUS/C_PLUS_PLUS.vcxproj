@@ -81,6 +81,7 @@
     <ClCompile Include="PROJECT\CoffeeBuyer.cpp" />
     <ClCompile Include="PROJECT\CoffeeManager.cpp" />
     <ClCompile Include="PROJECT\CoffeeSeller.cpp" />
+    <ClCompile Include="PROJECT\Inheritance_01.cpp" />
     <ClCompile Include="PROJECT\PhoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
