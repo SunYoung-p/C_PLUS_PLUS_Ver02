@@ -16,6 +16,9 @@
     <Filter Include="Classes">
       <UniqueIdentifier>{23df64a1-9bab-4002-9183-93055cbccf25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BOOK_PART_02\Inheritance">
+      <UniqueIdentifier>{48279155-38fb-4037-9a47-ff1425fc7f09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -207,6 +210,21 @@
     </ClCompile>
     <ClCompile Include="PROJECT\Inheritance_01.cpp">
       <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\DeriveDestOrder.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\Inheritance_Basic.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\DestModel.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\Probloem_01.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\Problem_02.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
