@@ -238,6 +238,9 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\HAS_Inheriti.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Inheritance\Problem_1025.cpp">
+      <Filter>BOOK_PART_02\Inheritance</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">
