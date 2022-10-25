@@ -61,6 +61,8 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\Inheritance_Basic.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\Problem_02.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\Probloem_01.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri01.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri02.cpp" />
     <ClCompile Include="BOOK_PART_02\Mutable.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction2.cpp" />

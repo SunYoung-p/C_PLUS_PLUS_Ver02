@@ -19,7 +19,7 @@ class d1025 : protected c1025 	// empty!
 
 };
 
-int main()
+int ProtectedHeri02()
 {
 	d1025 drv;
 	// 컴파일 에러 발생! cout << drv.num3 << endl;
