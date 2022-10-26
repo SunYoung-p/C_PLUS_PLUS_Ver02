@@ -87,6 +87,8 @@
     <ClCompile Include="BOOK_PART_02\TempObjDeadTime_01.cpp" />
     <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PROJECT\Account.cpp" />
+    <ClCompile Include="PROJECT\AccountHandler.cpp" />
     <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp" />
     <ClCompile Include="PROJECT\CoffeeBuyer.cpp" />
     <ClCompile Include="PROJECT\CoffeeManager.cpp" />
@@ -104,6 +106,8 @@
     <ClInclude Include="BOOK_PART_02\Printer.h" />
     <ClInclude Include="BOOK_PART_02\Rectangle.h" />
     <ClInclude Include="BOOK_PART_02\Ring.h" />
+    <ClInclude Include="PROJECT\Account.h" />
+    <ClInclude Include="PROJECT\AccountHandler.h" />
     <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h" />
     <ClInclude Include="PROJECT\CoffeeBuyer.h" />
     <ClInclude Include="PROJECT\CoffeeSeller.h" />

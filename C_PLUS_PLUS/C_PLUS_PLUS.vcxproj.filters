@@ -241,6 +241,12 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\Problem_1025.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
+    <ClCompile Include="PROJECT\Account.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\AccountHandler.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">
@@ -277,6 +283,12 @@
       <Filter>PROJECT</Filter>
     </ClInclude>
     <ClInclude Include="PROJECT\CoffeeSeller.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\Account.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\AccountHandler.h">
       <Filter>PROJECT</Filter>
     </ClInclude>
   </ItemGroup>
