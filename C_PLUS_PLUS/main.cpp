@@ -37,6 +37,60 @@ public:
 	}
 };
 
+class TemporaryWorker : public Employee
+{
+private:
+	int workTime;
+	int payPerHour;
+public:
+	TemporaryWorker(char * name, int pay)
+		: Employee(name), workTime(0), payPerHour(pay)
+	{
+		
+	}
+	void AddWorkTime(int time)
+	{
+		workTime += time;
+	}
+	int GetPay() const
+	{
+		return workTime * payPerHour;
+	}
+	void ShowSalaryInfo() const
+	{
+		ShowYourName();
+		cout << "salary: " << GetPay() << endl << endl;
+	}
+};
+
+class SalesWorker : public PermanentWorker
+{
+private:
+	int salesResult;
+	double bonusRatio;
+public:
+	SalesWorker(char * name, int money, double ratio)
+		: PermanentWorker(name, money), salesResult(0), bonusRatio(ratio)
+	{
+
+	}
+
+	void AddSalesResult(int value)
+	{
+		salesResult += value;
+	}
+
+	int GetPay() const	// 상속 관계에 한해서, 매개변수와 리턴값이 똑같은 함수를 선언하면 함수오버라이딩,  매개변수 자료형과 개수가 다르면 함수 오버로딩이 된다.
+	{
+		return PermanentWorker::GetPay() + (int)(salesResult * bonusRatio);
+	}
+
+	void ShowSalaryInfo() const
+	{
+		ShowYourName();
+		cout << "Salary : " << GetPay() << endl << endl;
+	}
+};
 
 class EmployeeHandler
 {
@@ -79,10 +133,19 @@ int main()
 	// 직원 관리를 목적으로 설계된 컨트롤 클래스의 객체 생성
 	EmployeeHandler handler;
 
-	// 직원 등록
+	// 정규직 등록
 	handler.AddEmployee(new PermanentWorker("Kim", 1000));		// Employee 포인터 객체 배열에,  PermanentWorker 객체를 집어넣어서 관리가 가능함.  상속되었으므로
 	handler.AddEmployee(new PermanentWorker("LEE", 1500));
-	handler.AddEmployee(new PermanentWorker("JUN", 2000));
+
+	// 임시직 등록
+	TemporaryWorker * alba = new TemporaryWorker("Jung", 700);
+	alba->AddWorkTime(5); // 5시간 일한 결과 등록
+	handler.AddEmployee(alba);
+
+	// 영업직 등록
+	SalesWorker * seller = new SalesWorker("Hong", 1000, 0.1);
+	seller->AddSalesResult(7000); // 영업 실적 7000
+	handler.AddEmployee(seller);
 
 	// 이번 달에 지불해야 할 급여의 정보
 	handler.ShowAllSalaryInfo();
