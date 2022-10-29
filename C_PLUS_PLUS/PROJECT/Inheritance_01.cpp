@@ -14,6 +14,13 @@ public:
 	{
 		cout << "name : " << name << endl;
 	}
+	virtual int GetPay()	 const
+	{
+		return 0;
+	}
+
+	virtual void ShowSalaryInfo() const
+	{ }
 };
 
 class PermanentWorker : public Employee
@@ -106,18 +113,18 @@ public:
 	}
 	void ShowAllSalaryInfo() const
 	{
-		/*
+
 		for (int i = 0; i < empNum; i++)
-		empList[i]->ShowSalaryInfo();
-		*/
+			empList[i]->ShowSalaryInfo();		// 기초 클래스 Employee 내부에 가상함수로 선언됨으로, 변수 자료형이 아닌 가리키는 주소값의 자료형(클래스)에 맞는 함수를 실행하게 됨
+
 	}
 	void ShowTotalSalary() const
 	{
 		int sum = 0;
-		/*
+
 		for (int i = 0; i < empNum; i++)
-		sum += empList[i]->GetPay();
-		*/
+			sum += empList[i]->GetPay();		// 기초 클래스 Employee 내부에 가상함수로 선언됨으로, 변수 자료형이 아닌 가리키는 주소값의 자료형(클래스)에 맞는 함수를 실행하게 됨
+
 		cout << "salary sum: " << sum << endl;
 	}
 	~EmployeeHandler()
@@ -128,7 +135,19 @@ public:
 
 };
 
-int Inheritance_1029()
+/*
+상속을 하는 이유는 연관된 영업직, 정규직, 임시직 클래스에 공통 규약인 직원이라는 클래스를 정의하기 위함이다.
+직원 클래스에 모두에게 똑같이 해당되는 규약 및 동작을 설정하여
+이걸 상속함으로써,  어떤 종류의 직업이든 간에 직원 객체로 바라보고 관리할 수 있다.
+
+오렌지미디어 급여 관리 확장성 문제 해결의 포인트
+1. 상속을 받은 유도 클래스의 객체 주소값은 기초 클래스의 포인터 변수에 저장이 가능하다.
+- emplyee 포인터 배열에 PermentWorker 객체 주소 넣는 게 가능
+- handler 클래스에 PermentWorker 변수,  이를 다루는 함수를 추가할 필요가 없어짐
+2. 가상함수와 함수 오버라이딩으로,  변수의 자료형이 아니라 가리키는 주소의 자료형 기준의 함수 실행이 가능하다.
+- emplyee 포인터 배열에 여러 종류의 객체 주소를 집어넣고,  오버라이딩만 되어있다는 조건이면,  각 종류에 맞는 함수를 찾아가서 실행이 가능함
+*/
+int Inheritance_01()
 {
 	// 직원 관리를 목적으로 설계된 컨트롤 클래스의 객체 생성
 	EmployeeHandler handler;
