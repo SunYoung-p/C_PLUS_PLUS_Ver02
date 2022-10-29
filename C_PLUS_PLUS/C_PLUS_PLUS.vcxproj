@@ -58,6 +58,7 @@
     <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\DeriveDestOrder.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\DestModel.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\FunctionOverride.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\HAS_Inheriti.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\Inheritance_Basic.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\IS_A_Inheri.cpp" />
@@ -66,6 +67,7 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\Probloem_01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri02.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\VertualFunc_01.cpp" />
     <ClCompile Include="BOOK_PART_02\Mutable.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction2.cpp" />
