@@ -56,6 +56,7 @@
     <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp" />
     <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp" />
     <ClCompile Include="BOOK_PART_02\FruitSeller.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\AbstractClass.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\DeriveDestOrder.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\DestModel.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\FunctionOverride.cpp" />
@@ -68,6 +69,7 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri02.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\VertualFunc_01.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\VirtualDestructor.cpp" />
     <ClCompile Include="BOOK_PART_02\Mutable.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction.cpp" />
     <ClCompile Include="BOOK_PART_02\MyFriendFunction2.cpp" />
