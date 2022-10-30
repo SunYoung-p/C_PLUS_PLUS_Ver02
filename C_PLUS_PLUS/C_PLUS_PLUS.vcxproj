@@ -68,6 +68,7 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\Probloem_01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri02.cpp" />
+    <ClCompile Include="BOOK_PART_02\Inheritance\ReferenceAttribute.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\VertualFunc_01.cpp" />
     <ClCompile Include="BOOK_PART_02\Inheritance\VirtualDestructor.cpp" />
     <ClCompile Include="BOOK_PART_02\Mutable.cpp" />
