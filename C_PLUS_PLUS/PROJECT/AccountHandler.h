@@ -7,6 +7,7 @@ private:
 	Account * info[100];
 	int idx;
 	int ACCOUNT_CNT;
+
 public:
 	AccountHandler();
 	~AccountHandler();
@@ -16,7 +17,7 @@ public:
 	void DepositMoney();
 	void WithDrawMoney();
 	void PrintAccount() const;
-
+	NormalAccount & MakeNormalAccount();
 	/* enum »ó¼ö */
 	enum KEY
 	{
@@ -27,4 +28,12 @@ public:
 		EXIT
 	};
 
+};
+
+class AccountRatio
+{
+public:
+	static const int LEVEL_A = 7;
+	static const int LEVEL_B = 4;
+	static const int LEVEL_C = 2;
 };

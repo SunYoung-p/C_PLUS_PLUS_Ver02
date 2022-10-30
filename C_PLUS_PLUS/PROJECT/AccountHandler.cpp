@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Account.h"
+#include "AccountClasses.h"
 #include "AccountHandler.h"
 using namespace std;
 
@@ -57,27 +58,59 @@ void AccountHandler::PrintMenu() const
 // 계좌 개설
 void AccountHandler::MakeAccount()
 {
-	char id[20] = { 0 }, name[20] = { 0 };
-	int money = 0;
+	int sel = 0;
 
-	cout << "\n [계좌 개설] \n";
-	cout << "(1) ID 입력 : "; cin >> id;
-	cout << "(2) Name 입력 : "; cin >> name;
-	cout << "(3) Money 입력 : "; cin >> money;
+	cout << "\n[계좌종류선택]\n";
+	cout << "1. 보통예금계좌  2. 신용신뢰계좌 \n";
+	cout << "선택: ";
+	cin >> sel;
+	cin.ignore(INT_MAX, '\n');
 
+	switch (sel)
+	{
+	case 1:
+		info[++idx] = MakeNormalAccount();
+		break;
+	case 2:
+		//val = MakeCreditAccount();
+		break;
+	default:
+		cout << "잘못된 선택 입니다" << endl << endl;
+		return;
+		break;
+	}
+
+	/*
 	for (int i = 0; i < ACCOUNT_CNT; i++)
 	{
 		if (i > idx)
 			break;
 
-		if (strcmp(info[i]->GetID(), id) == 0)
+		if (strcmp(val->GetID(), id) == 0)
 		{
 			cout << "ID 중복 에러 \n";
 			return;
 		}
 	}
+	*/
+}
 
-	info[++idx] = new Account(id, name, money);
+NormalAccount &MakeNormalAccount()
+{
+	char id[20] = { 0 }, name[20] = { 0 };
+	int money = 0;
+	int ratio = 0;
+
+	cout << "[보통예금계좌 개설] \n";
+
+
+
+	cout << "계좌ID : "; cin >> id;
+	cout << "이   름 : "; cin >> name;
+	cout << "입금액 : "; cin >> money;
+	cout << "이자율 : "; cin >> ratio;
+
+	return *(new NormalAccount(id, name, money, ratio));
 }
 
 // 입금

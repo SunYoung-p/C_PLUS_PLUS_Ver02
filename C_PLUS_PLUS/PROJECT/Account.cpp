@@ -2,7 +2,7 @@
 #include "Account.h"
 using namespace std;
 
-Account::Account(char *id, char *name, int money)
+Account::Account(char *id, char *name)
 {
 	int len = 0;
 
@@ -14,7 +14,6 @@ Account::Account(char *id, char *name, int money)
 	myName = new char[len];
 	strcpy_s(myName, len, name);
 
-	myMoney = money;
 }
 
 Account::Account(const Account& n)
@@ -28,7 +27,6 @@ Account::Account(const Account& n)
 	myName = new char[len];
 	strcpy_s(myName, len, n.myName);
 
-	myMoney = n.myMoney;
 }
 
 Account::~Account()

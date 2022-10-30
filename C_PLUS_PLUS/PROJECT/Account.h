@@ -5,21 +5,19 @@ class Account
 private:
 	char* myID;
 	char* myName;
-	int myMoney;
 
 public:
-	Account(char *id, char *name, int money);
+	
+	Account() {};
+	Account(char *id, char *name);
 	Account(const Account& n);
 	~Account();
 	void ShowInfo() const;
 	
 	char* GetID() const { return myID; }
 	char* GetName() const { return myName; }
-	int GetMoney() const { return myMoney; }
-	void PlusMoney(int money) { myMoney += money; }
-	void MinusMoney(int money)
-	{
-		if (myMoney - money >= 0)
-			myMoney -= money;
-	}
+	virtual int GetMoney() const = 0;
+	virtual void PlusMoney(int money) = 0;
+	virtual void MinusMoney(int money) = 0;
 };
+

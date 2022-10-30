@@ -262,6 +262,9 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\ReferenceAttribute.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
+    <ClCompile Include="PROJECT\AccountClasses.cpp">
+      <Filter>PROJECT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BOOK_PART_02\Calculator.h">
@@ -304,6 +307,9 @@
       <Filter>PROJECT</Filter>
     </ClInclude>
     <ClInclude Include="PROJECT\AccountHandler.h">
+      <Filter>PROJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\AccountClasses.h">
       <Filter>PROJECT</Filter>
     </ClInclude>
   </ItemGroup>
