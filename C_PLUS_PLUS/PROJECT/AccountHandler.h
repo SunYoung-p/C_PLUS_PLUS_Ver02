@@ -1,4 +1,5 @@
 #pragma once
+#include "AccountClasses.h"
 #include "Account.h"
 
 class AccountHandler
@@ -17,7 +18,8 @@ public:
 	void DepositMoney();
 	void WithDrawMoney();
 	void PrintAccount() const;
-	NormalAccount & MakeNormalAccount();
+	NormalAccount * MakeNormalAccount();
+	HighCreditAccount * MakeCreditAccount();
 	/* enum »ó¼ö */
 	enum KEY
 	{
@@ -30,10 +32,3 @@ public:
 
 };
 
-class AccountRatio
-{
-public:
-	static const int LEVEL_A = 7;
-	static const int LEVEL_B = 4;
-	static const int LEVEL_C = 2;
-};

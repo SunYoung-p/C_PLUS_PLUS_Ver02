@@ -64,6 +64,7 @@ void AccountHandler::MakeAccount()
 	cout << "1. 보통예금계좌  2. 신용신뢰계좌 \n";
 	cout << "선택: ";
 	cin >> sel;
+	cin.clear();
 	cin.ignore(INT_MAX, '\n');
 
 	switch (sel)
@@ -72,7 +73,7 @@ void AccountHandler::MakeAccount()
 		info[++idx] = MakeNormalAccount();
 		break;
 	case 2:
-		//val = MakeCreditAccount();
+		info[++idx] = MakeCreditAccount();
 		break;
 	default:
 		cout << "잘못된 선택 입니다" << endl << endl;
@@ -95,7 +96,7 @@ void AccountHandler::MakeAccount()
 	*/
 }
 
-NormalAccount &MakeNormalAccount()
+NormalAccount* AccountHandler::MakeNormalAccount()
 {
 	char id[20] = { 0 }, name[20] = { 0 };
 	int money = 0;
@@ -103,14 +104,36 @@ NormalAccount &MakeNormalAccount()
 
 	cout << "[보통예금계좌 개설] \n";
 
+	cout << "계좌ID : "; cin >> id;
+	/* 수정 - ID 중복 체크 필요 */
+	cout << "이   름 : "; cin >> name;
+	cout << "입금액 : "; cin >> money;
+	cout << "이자율 : "; cin >> ratio;
+	
+	NormalAccount* a = new NormalAccount(id, name, money, ratio);
 
+	return a;
+}
+
+HighCreditAccount* AccountHandler::MakeCreditAccount()
+{
+	char id[20] = { 0 }, name[20] = { 0 };
+	int money = 0;
+	int ratio = 0;
+	int level = 0;
+
+	cout << "[신용신뢰계좌 개설] \n";
 
 	cout << "계좌ID : "; cin >> id;
 	cout << "이   름 : "; cin >> name;
 	cout << "입금액 : "; cin >> money;
 	cout << "이자율 : "; cin >> ratio;
+	cout << "신용등급(1toA, 2toB, 3toC) : "; cin >> level;
+	/* 수정 - 이자율 관련 잘못된 입력에 대한 처리 필요 */
 
-	return *(new NormalAccount(id, name, money, ratio));
+	HighCreditAccount* a = new HighCreditAccount(id, name, money, ratio, level);
+
+	return a;
 }
 
 // 입금
