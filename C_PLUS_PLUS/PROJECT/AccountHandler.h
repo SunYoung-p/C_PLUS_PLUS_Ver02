@@ -18,6 +18,8 @@ public:
 	void DepositMoney();
 	void WithDrawMoney();
 	void PrintAccount() const;
+	bool IsEmptyID(char*) const;
+
 	NormalAccount * MakeNormalAccount();
 	HighCreditAccount * MakeCreditAccount();
 	/* enum »ó¼ö */

@@ -80,8 +80,7 @@ int run_main()
 			break;
 		default:
 			cout << "입력이 잘못되었습니다" << endl << endl;
-			cin.clear();
-			cin.ignore(INT_MAX, '\n');
+			cin.ignore();
 			break;
 		}
 

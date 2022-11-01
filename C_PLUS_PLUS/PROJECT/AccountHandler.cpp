@@ -46,6 +46,8 @@ int AccountHandler::GetIdxBank(char *id)
 // 전체 메뉴 출력
 void AccountHandler::PrintMenu() const
 {
+	
+
 	cout << "-----Menu-----" << endl
 		<< "1. 계좌개설" << endl
 		<< "2. 입 금" << endl
@@ -59,6 +61,7 @@ void AccountHandler::PrintMenu() const
 void AccountHandler::MakeAccount()
 {
 	int sel = 0;
+	Account* a = NULL;
 
 	cout << "\n[계좌종류선택]\n";
 	cout << "1. 보통예금계좌  2. 신용신뢰계좌 \n";
@@ -70,30 +73,21 @@ void AccountHandler::MakeAccount()
 	switch (sel)
 	{
 	case 1:
-		info[++idx] = MakeNormalAccount();
+		a = MakeNormalAccount();
 		break;
 	case 2:
-		info[++idx] = MakeCreditAccount();
+		a= MakeCreditAccount();
 		break;
 	default:
 		cout << "잘못된 선택 입니다" << endl << endl;
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
 		return;
 		break;
 	}
 
-	/*
-	for (int i = 0; i < ACCOUNT_CNT; i++)
-	{
-		if (i > idx)
-			break;
-
-		if (strcmp(val->GetID(), id) == 0)
-		{
-			cout << "ID 중복 에러 \n";
-			return;
-		}
-	}
-	*/
+	if (a != NULL)
+		info[++idx] = a;
 }
 
 NormalAccount* AccountHandler::MakeNormalAccount()
@@ -105,11 +99,16 @@ NormalAccount* AccountHandler::MakeNormalAccount()
 	cout << "[보통예금계좌 개설] \n";
 
 	cout << "계좌ID : "; cin >> id;
-	/* 수정 - ID 중복 체크 필요 */
 	cout << "이   름 : "; cin >> name;
 	cout << "입금액 : "; cin >> money;
 	cout << "이자율 : "; cin >> ratio;
 	
+	if (IsEmptyID(id) == false)
+	{
+		cout << "중복된 ID 입니다" << endl;
+		return NULL;
+	}
+
 	NormalAccount* a = new NormalAccount(id, name, money, ratio);
 
 	return a;
@@ -125,16 +124,46 @@ HighCreditAccount* AccountHandler::MakeCreditAccount()
 	cout << "[신용신뢰계좌 개설] \n";
 
 	cout << "계좌ID : "; cin >> id;
+	
 	cout << "이   름 : "; cin >> name;
 	cout << "입금액 : "; cin >> money;
 	cout << "이자율 : "; cin >> ratio;
 	cout << "신용등급(1toA, 2toB, 3toC) : "; cin >> level;
-	/* 수정 - 이자율 관련 잘못된 입력에 대한 처리 필요 */
+
+	if (level < 1 || level > 3)
+	{
+		cout << "입력이 잘못되었습니다" << endl;
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
+		return NULL;
+	}
+
+	if (IsEmptyID(id) == false)
+	{
+		cout << "중복된 ID 입니다" << endl;
+		return NULL;
+	}
+
 
 	HighCreditAccount* a = new HighCreditAccount(id, name, money, ratio, level);
 
 	return a;
 }
+
+bool AccountHandler::IsEmptyID(char* id) const
+{
+	for (int i = 0; i < ACCOUNT_CNT; i++)
+	{
+		if (i > idx)
+			break;
+
+		if (strcmp(info[i]->GetID(), id) == 0)
+			return false;
+	}
+
+	return true;
+}
+
 
 // 입금
 void AccountHandler::DepositMoney()
@@ -151,6 +180,8 @@ void AccountHandler::DepositMoney()
 	if (idx == -1)
 	{
 		cout << "ID가 존재하지 않습니다 \n";
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
 		return;
 	}
 	else if (money < 0)
@@ -179,6 +210,8 @@ void AccountHandler::WithDrawMoney()
 	if (idx == -1)
 	{
 		cout << "ID가 존재하지 않습니다 \n";
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
 		return;
 	}
 	else if (money < 0)
