@@ -19,6 +19,9 @@
     <Filter Include="BOOK_PART_02\Inheritance">
       <UniqueIdentifier>{48279155-38fb-4037-9a47-ff1425fc7f09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BOOK_PART_02\Virtual_N_Multi_Inheri">
+      <UniqueIdentifier>{bb5e7461-8bff-42c6-b083-a6d2a02bceb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -264,6 +267,9 @@
     </ClCompile>
     <ClCompile Include="PROJECT\AccountClasses.cpp">
       <Filter>PROJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\RealMemberFunction.cpp">
+      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

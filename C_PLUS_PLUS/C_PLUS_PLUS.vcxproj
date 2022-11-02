@@ -91,6 +91,7 @@
     <ClCompile Include="BOOK_PART_02\StaticMember.cpp" />
     <ClCompile Include="BOOK_PART_02\TempObjDeadTime_01.cpp" />
     <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp" />
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\RealMemberFunction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PROJECT\Account.cpp" />
     <ClCompile Include="PROJECT\AccountClasses.cpp" />
