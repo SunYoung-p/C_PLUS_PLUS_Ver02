@@ -22,6 +22,9 @@
     <Filter Include="BOOK_PART_02\Virtual_N_Multi_Inheri">
       <UniqueIdentifier>{bb5e7461-8bff-42c6-b083-a6d2a02bceb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PROJECT\BankingSystem">
+      <UniqueIdentifier>{44f9c655-7c3f-4590-997e-b97cee0c6e54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -169,9 +172,6 @@
     <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp">
       <Filter>BOOK_PART_02</Filter>
     </ClCompile>
-    <ClCompile Include="PROJECT\BOOK_OOP_PRJ_01.cpp">
-      <Filter>PROJECT</Filter>
-    </ClCompile>
     <ClCompile Include="PROJECT\CoffeeBuyer.cpp">
       <Filter>PROJECT</Filter>
     </ClCompile>
@@ -244,12 +244,6 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\Problem_1025.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
-    <ClCompile Include="PROJECT\Account.cpp">
-      <Filter>PROJECT</Filter>
-    </ClCompile>
-    <ClCompile Include="PROJECT\AccountHandler.cpp">
-      <Filter>PROJECT</Filter>
-    </ClCompile>
     <ClCompile Include="BOOK_PART_02\Inheritance\FunctionOverride.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
@@ -265,11 +259,32 @@
     <ClCompile Include="BOOK_PART_02\Inheritance\ReferenceAttribute.cpp">
       <Filter>BOOK_PART_02\Inheritance</Filter>
     </ClCompile>
-    <ClCompile Include="PROJECT\AccountClasses.cpp">
-      <Filter>PROJECT</Filter>
-    </ClCompile>
     <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\RealMemberFunction.cpp">
       <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\VTable.cpp">
+      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\MultiInHeri1.cpp">
+      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\MultiInheri2.cpp">
+      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\Virtual_Inheri.cpp">
+      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BankingSystem\BOOK_OOP_PRJ_01.cpp">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BankingSystem\AccountHandler.cpp">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BankingSystem\AccountClasses.cpp">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECT\BankingSystem\Account.cpp">
+      <Filter>PROJECT\BankingSystem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -300,23 +315,23 @@
     <ClInclude Include="BOOK_PART_02\Ring.h">
       <Filter>BOOK_PART_02</Filter>
     </ClInclude>
-    <ClInclude Include="PROJECT\BOOK_OOP_PRJ_01.h">
-      <Filter>PROJECT</Filter>
-    </ClInclude>
     <ClInclude Include="PROJECT\CoffeeBuyer.h">
       <Filter>PROJECT</Filter>
     </ClInclude>
     <ClInclude Include="PROJECT\CoffeeSeller.h">
       <Filter>PROJECT</Filter>
     </ClInclude>
-    <ClInclude Include="PROJECT\Account.h">
-      <Filter>PROJECT</Filter>
+    <ClInclude Include="PROJECT\BankingSystem\AccountHandler.h">
+      <Filter>PROJECT\BankingSystem</Filter>
     </ClInclude>
-    <ClInclude Include="PROJECT\AccountHandler.h">
-      <Filter>PROJECT</Filter>
+    <ClInclude Include="PROJECT\BankingSystem\BOOK_OOP_PRJ_01.h">
+      <Filter>PROJECT\BankingSystem</Filter>
     </ClInclude>
-    <ClInclude Include="PROJECT\AccountClasses.h">
-      <Filter>PROJECT</Filter>
+    <ClInclude Include="PROJECT\BankingSystem\AccountClasses.h">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BankingSystem\Account.h">
+      <Filter>PROJECT\BankingSystem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
