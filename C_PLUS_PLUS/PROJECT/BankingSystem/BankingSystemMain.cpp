@@ -1,6 +1,4 @@
-#include <iostream>
-#include "BOOK_OOP_PRJ_01.h"
-#include "AccountHandler.h"
+#include "BankingCommonDecl.h"
 
 using namespace std;
 
@@ -19,19 +17,19 @@ int RunBankManager()
 
 		switch (sel)
 		{
-		case AccountHandler::MAKE:
+		case MAKE:
 			handler.MakeAccount();
 			break;
-		case AccountHandler::DEPOSIT:
+		case  DEPOSIT:
 			handler.DepositMoney();
 			break;
-		case AccountHandler::WITHDRAW:
+		case  WITHDRAW:
 			handler.WithDrawMoney();
 			break;
-		case AccountHandler::SHOWINFO:
+		case  SHOWINFO:
 			handler.PrintAccount();
 			break;
-		case AccountHandler::EXIT:
+		case  EXIT:
 			exit = true;
 			break;
 		default:

@@ -1,6 +1,4 @@
-#include <iostream>
-#include "Account.h"
-using namespace std;
+#include "BankingCommonDecl.h"
 
 Account::Account(char *id, char *name)
 {

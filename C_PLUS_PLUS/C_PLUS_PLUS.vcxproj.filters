@@ -13,17 +13,35 @@
     <Filter Include="PROJECT">
       <UniqueIdentifier>{2fce9b47-3fcf-4442-9b80-4ff79d90746d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes">
-      <UniqueIdentifier>{23df64a1-9bab-4002-9183-93055cbccf25}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="BOOK_PART_02\Inheritance">
-      <UniqueIdentifier>{48279155-38fb-4037-9a47-ff1425fc7f09}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="BOOK_PART_02\Virtual_N_Multi_Inheri">
-      <UniqueIdentifier>{bb5e7461-8bff-42c6-b083-a6d2a02bceb0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="PROJECT\BankingSystem">
       <UniqueIdentifier>{44f9c655-7c3f-4590-997e-b97cee0c6e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_03">
+      <UniqueIdentifier>{5cf7634d-d798-4843-b6a6-fdb8fb1aad3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_03\Inheritance">
+      <UniqueIdentifier>{1bf5f504-ee77-40d4-aee0-4f51896dce5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_03\Virtual_N_Multi_Inheri">
+      <UniqueIdentifier>{6e331c7b-601f-451f-9154-22c2dd808d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_02\Class_Basic">
+      <UniqueIdentifier>{f253c3f7-8be0-4a87-8530-c80a717fd448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_02\Class_Final">
+      <UniqueIdentifier>{2609032b-7a9c-476b-9170-a0d49573d9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_02\Copy_Constructor">
+      <UniqueIdentifier>{1a1771d9-67f1-41f9-8424-0a7b9ec5ec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_02\Freinds_Static_Const">
+      <UniqueIdentifier>{5464d713-251a-4b8c-8c60-083a99a6f4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_04">
+      <UniqueIdentifier>{587199b6-6f6c-4d41-a801-7ee66b3bb99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOOK_PART_04\Operation_OverLoading">
+      <UniqueIdentifier>{bdbcbbb4-e7c9-4421-9193-1fe318a511cb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -85,93 +103,6 @@
     <ClCompile Include="BOOK_PART_01\Struct_Class.cpp">
       <Filter>BOOK_PART_01</Filter>
     </ClCompile>
-    <ClCompile Include="BOOK_PART_02\0815_ThisPointer.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Calculator.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Circle.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Const_Error_Example.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Constructor1.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Constructor2.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\CopyConstruct.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\CopyConstruct02.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\DeepCopyStructor.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Destructor.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Encaps1.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Encaps2.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Exam_MsgPassing.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\FruiteBuyer.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\FruitSeller.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\NameCard.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\NameCardManager.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\ObjArr.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Point.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Printer.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\PrivateConstructor.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Rectangle.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\RectangleFaultFind.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\ReferenceMeber.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Ring.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\RunFruitBuyer.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\RunRingMaker.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_01.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\TempObjDeadTime_02.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
     <ClCompile Include="PROJECT\CoffeeBuyer.cpp">
       <Filter>PROJECT</Filter>
     </ClCompile>
@@ -184,137 +115,197 @@
     <ClCompile Include="PROJECT\PhoneManager.cpp">
       <Filter>PROJECT</Filter>
     </ClCompile>
-    <ClCompile Include="BOOK_PART_02\ConstObject.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\ConstOverLoading.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\MyFriendFunction.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\MyFriendFunction2.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\StaticMember.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\PublicStaticMember.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\PublicStaticMembers.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\ConstStaticMember.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Mutable.cpp">
-      <Filter>BOOK_PART_02</Filter>
-    </ClCompile>
     <ClCompile Include="PROJECT\Inheritance_01.cpp">
       <Filter>PROJECT</Filter>
     </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\DeriveDestOrder.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\Inheritance_Basic.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\DestModel.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\Probloem_01.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\Problem_02.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri01.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\ProtectedHeri02.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\IS_A_Inheri.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\HAS_Inheriti.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\Problem_1025.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\FunctionOverride.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\VertualFunc_01.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\AbstractClass.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\VirtualDestructor.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Inheritance\ReferenceAttribute.cpp">
-      <Filter>BOOK_PART_02\Inheritance</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\RealMemberFunction.cpp">
-      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\VTable.cpp">
-      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\MultiInHeri1.cpp">
-      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\MultiInheri2.cpp">
-      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
-    </ClCompile>
-    <ClCompile Include="BOOK_PART_02\Virtual_N_Multi_Inheri\Virtual_Inheri.cpp">
-      <Filter>BOOK_PART_02\Virtual_N_Multi_Inheri</Filter>
-    </ClCompile>
-    <ClCompile Include="PROJECT\BankingSystem\BOOK_OOP_PRJ_01.cpp">
-      <Filter>PROJECT\BankingSystem</Filter>
-    </ClCompile>
     <ClCompile Include="PROJECT\BankingSystem\AccountHandler.cpp">
-      <Filter>PROJECT\BankingSystem</Filter>
-    </ClCompile>
-    <ClCompile Include="PROJECT\BankingSystem\AccountClasses.cpp">
       <Filter>PROJECT\BankingSystem</Filter>
     </ClCompile>
     <ClCompile Include="PROJECT\BankingSystem\Account.cpp">
       <Filter>PROJECT\BankingSystem</Filter>
     </ClCompile>
+    <ClCompile Include="PROJECT\BankingSystem\BankingSystemMain.cpp">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Virtual_N_Multi_Inheri\RealMemberFunction.cpp">
+      <Filter>BOOK_PART_03\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Virtual_N_Multi_Inheri\MultiInHeri1.cpp">
+      <Filter>BOOK_PART_03\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Virtual_N_Multi_Inheri\MultiInheri2.cpp">
+      <Filter>BOOK_PART_03\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Virtual_N_Multi_Inheri\Virtual_Inheri.cpp">
+      <Filter>BOOK_PART_03\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Virtual_N_Multi_Inheri\VTable.cpp">
+      <Filter>BOOK_PART_03\Virtual_N_Multi_Inheri</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\VirtualDestructor.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\AbstractClass.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\DeriveDestOrder.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\DestModel.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\FunctionOverride.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\HAS_Inheriti.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\Inheritance_Basic.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\IS_A_Inheri.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\Problem_02.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\Problem_1025.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\Probloem_01.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\ProtectedHeri01.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\ProtectedHeri02.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\ReferenceAttribute.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_03\Inheritance\VertualFunc_01.cpp">
+      <Filter>BOOK_PART_03\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Constructor1.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Constructor2.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Encaps1.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Encaps2.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Exam_MsgPassing.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\FruiteBuyer.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\FruitSeller.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Printer.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\PublicStaticMember.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\RunFruitBuyer.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\RunRingMaker.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Calculator.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Basic\Const_Error_Example.cpp">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\ConstStaticMember.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\Mutable.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\MyFriendFunction.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\MyFriendFunction2.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\PublicStaticMembers.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\StaticMember.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\ConstObject.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Freinds_Static_Const\ConstOverLoading.cpp">
+      <Filter>BOOK_PART_02\Freinds_Static_Const</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\NameCardManager.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\ObjArr.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\Point.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\PrivateConstructor.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\Rectangle.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\RectangleFaultFind.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\ReferenceMeber.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\Ring.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\0815_ThisPointer.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\Circle.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Class_Final\Destructor.cpp">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\DeepCopyStructor.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\NameCard.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\TempObjDeadTime_01.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\TempObjDeadTime_02.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\CopyConstruct.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_02\Copy_Constructor\CopyConstruct02.cpp">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOK_PART_04\Operation_OverLoading\FirstOperationOverLoading.cpp">
+      <Filter>BOOK_PART_04\Operation_OverLoading</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BOOK_PART_02\Calculator.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\Circle.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\FruitBuyer.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\FruitSeller.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\NameCard.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\Point.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\Printer.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\Rectangle.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
-    <ClInclude Include="BOOK_PART_02\Ring.h">
-      <Filter>BOOK_PART_02</Filter>
-    </ClInclude>
     <ClInclude Include="PROJECT\CoffeeBuyer.h">
       <Filter>PROJECT</Filter>
     </ClInclude>
@@ -324,14 +315,44 @@
     <ClInclude Include="PROJECT\BankingSystem\AccountHandler.h">
       <Filter>PROJECT\BankingSystem</Filter>
     </ClInclude>
-    <ClInclude Include="PROJECT\BankingSystem\BOOK_OOP_PRJ_01.h">
-      <Filter>PROJECT\BankingSystem</Filter>
-    </ClInclude>
-    <ClInclude Include="PROJECT\BankingSystem\AccountClasses.h">
-      <Filter>PROJECT\BankingSystem</Filter>
-    </ClInclude>
     <ClInclude Include="PROJECT\BankingSystem\Account.h">
       <Filter>PROJECT\BankingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BankingSystem\NormalAccount.h">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BankingSystem\HighCreditAccount.h">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT\BankingSystem\BankingCommonDecl.h">
+      <Filter>PROJECT\BankingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Basic\FruitBuyer.h">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Basic\FruitSeller.h">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Basic\Printer.h">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Basic\Calculator.h">
+      <Filter>BOOK_PART_02\Class_Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Final\Point.h">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Final\Rectangle.h">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Final\Ring.h">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Class_Final\Circle.h">
+      <Filter>BOOK_PART_02\Class_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="BOOK_PART_02\Copy_Constructor\NameCard.h">
+      <Filter>BOOK_PART_02\Copy_Constructor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

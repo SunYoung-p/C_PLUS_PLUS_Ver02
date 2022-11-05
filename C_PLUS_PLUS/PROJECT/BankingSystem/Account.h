@@ -20,11 +20,3 @@ public:
 	virtual void PlusMoney(int money) = 0;
 	virtual void MinusMoney(int money) = 0;
 };
-
-class AccountRatio
-{
-public:
-	static const int LEVEL_A = 7;
-	static const int LEVEL_B = 4;
-	static const int LEVEL_C = 2;
-};

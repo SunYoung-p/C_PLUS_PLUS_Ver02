@@ -1,6 +1,5 @@
 #pragma once
-#include "AccountClasses.h"
-#include "Account.h"
+#include "BankingCommonDecl.h"
 
 class AccountHandler
 {
@@ -22,15 +21,7 @@ public:
 
 	NormalAccount * MakeNormalAccount();
 	HighCreditAccount * MakeCreditAccount();
-	/* enum »ó¼ö */
-	enum KEY
-	{
-		MAKE = 1,
-		DEPOSIT,
-		WITHDRAW,
-		SHOWINFO,
-		EXIT
-	};
+	
 
 };
 

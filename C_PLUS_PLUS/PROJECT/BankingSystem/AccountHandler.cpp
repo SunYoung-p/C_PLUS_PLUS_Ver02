@@ -1,8 +1,4 @@
-#include <iostream>
-#include "Account.h"
-#include "AccountClasses.h"
-#include "AccountHandler.h"
-using namespace std;
+#include "BankingCommonDecl.h"
 
 // »ý¼ºÀÚ
 AccountHandler::AccountHandler()
@@ -144,8 +140,17 @@ HighCreditAccount* AccountHandler::MakeCreditAccount()
 		return NULL;
 	}
 
+	int SpectialRatio = 0;
+	switch (level)
+	{
+	case 1: SpectialRatio = ratio + LEVEL_A; break;
+	case 2: SpectialRatio = ratio + LEVEL_B; break;
+	case 3: SpectialRatio = ratio + LEVEL_C; break;
+	default:
+		break;
+	}
 
-	HighCreditAccount* a = new HighCreditAccount(id, name, money, ratio, level);
+	HighCreditAccount* a = new HighCreditAccount(id, name, money, SpectialRatio, level);
 
 	return a;
 }
