@@ -310,6 +310,9 @@
     <ClCompile Include="BOOK_PART_04\Operation_OverLoading\No_10-1.cpp">
       <Filter>BOOK_PART_04\Operation_OverLoading</Filter>
     </ClCompile>
+    <ClCompile Include="BOOK_PART_04\Operation_OverLoading\OneOpndOverloading.cpp">
+      <Filter>BOOK_PART_04\Operation_OverLoading</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PROJECT\CoffeeBuyer.h">
