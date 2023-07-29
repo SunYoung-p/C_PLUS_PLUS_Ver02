@@ -17,7 +17,7 @@ namespace AA
 
 int n = 10;
 
-int NameFunc()
+int Namespace()
 {
 	cout << AA::BB::CC::a << std::endl;
 	cout << AA::BB::CC::b << std::endl;
